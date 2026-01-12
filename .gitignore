@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Data
+data/cifar-10-batches-py/
+data/*.tar.gz
+data/*.zip
+
+# Logs and checkpoints (太大，不上传)
+logs/
+checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training outputs
+training_summary.txt
